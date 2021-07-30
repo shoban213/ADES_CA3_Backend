@@ -1,7 +1,6 @@
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
-
 const PORT = process.env.PORT || 8080
 
 const mongoDB = "mongodb+srv://shoban:Shoban999@cluster0.cmcq8.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
